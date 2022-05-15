@@ -1,0 +1,5 @@
+/*robimy kalkulacje wysokości naszej mapy, jako że wiemy że nasz cały nagłówek ma 48px to tyle odejmujemy od pełnej wysokości ekranu*/
+.map {
+    background: green;
+    height: calc(100vh - 49px);
+}
